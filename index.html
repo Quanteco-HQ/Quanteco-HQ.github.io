@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Quanteco</title>
+	<meta name="description" content="Quanteco.org">
+	<meta name="author" content="Quanteco">
+	<meta name="referrer" content="no-referrer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- material design lite -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css" /> 
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet"> 
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main>
+    <script>
+        // fixes over-aggressive marking the email field as invalid
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                document.querySelectorAll("input[data-required]").forEach(function (e) {
+                    e.required = true;
+                });
+            }, 1);
+        });
+    </script>
+
+    <h1>Quanteco</h1>
+    <p>Quanteco will change the world. Better catchphrase needed.</p>
+    <p>Sign up to our mailing list to get notified of important news, including the launch 
+    of our app.</p>
+    
+    <!-- Begin Mailchimp Signup Form -->
+    <div id="mc_embed_signup">
+    <form action="https://quanteco.us5.list-manage.com/subscribe/post?u=84b372b9598d22040af9583e0&amp;id=0def27f7e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+        
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="email" value="" name="EMAIL" id="mce-EMAIL" data-required>
+            <label class="mdl-textfield__label" for="mce-EMAIL">Email address</label>
+        </div>
+
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_84b372b9598d22040af9583e0_0def27f7e4" tabindex="-1" value=""></div>
+
+        <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="mdl-button mdl-button--raised mdl-button--primary">
+            Subscribe
+        </button>
+        </div>
+    </form>
+    </div>
+
+<!--End mc_embed_signup-->
+
+</main>
+</body>
+</html>

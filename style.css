@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    max-width: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mc_embed_signup > form {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+}
