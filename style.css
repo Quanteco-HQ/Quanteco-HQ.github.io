@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #f5f9fa;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -7,10 +7,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    text-align: center;
+}
+
 main {
     max-width: 600px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 2em;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -20,7 +23,16 @@ main {
 
 #mc_embed_signup > form {
     display: flex;
-    flex-direction: row;
-    gap: 1em;
+    flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-height: 700px) and (min-width: 350px) {
+    body {
+        background-image: url('./background.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        background-attachment: fixed;
+    }
 }
