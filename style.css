@@ -32,17 +32,20 @@ main {
 @media screen and (min-height: 600px) and (min-width: 350px) {
     body {
         background-image: url('./background.jpg');
-        background-size:2000px;
+        background-size: 2000px;
         background-position-x: center;
         background-position-y: top;
         background-repeat: no-repeat;
         background-attachment: fixed;
-
     }
 }
 
-
-
+@media screen and (min-height: 1000px) and (min-width: 2000px) {
+    body {
+        /* Fix bg for very large displays */
+        background-size: cover;
+    }
+}
 
 
 
