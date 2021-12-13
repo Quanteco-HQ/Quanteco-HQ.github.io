@@ -36,28 +36,120 @@
         });
     </script>
 
-    <h1 style="margin-top: 0">Quanteco</h1>
-    <p>Quanteco will change the world. Quantify your climate!</p>
-    <p>Sign up to our mailing list to get notified of important news, including the launch 
-    of our app.</p>
-    
-    <div id="mc_embed_signup">
-        <form action="https://quanteco.us5.list-manage.com/subscribe/post?u=84b372b9598d22040af9583e0&amp;id=0def27f7e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-            
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="email" value="" name="EMAIL" id="mce-EMAIL" data-required>
-                <label class="mdl-textfield__label" for="mce-EMAIL">Email address</label>
-            </div>
-
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_84b372b9598d22040af9583e0_0def27f7e4" tabindex="-1" value=""></div>
-
-            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="mdl-button mdl-button--raised mdl-button--primary">
-                Subscribe
-            </button>
-            </div>
-        </form>
+    <div style="margin-top: 10px;"><img src="quanteco2.png" alt="Quanteco logo">
+   <!-- 
+    <h1 style="margin-top: 0" class = "title">Quanteco </h1>
+     Tab links -->
     </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+              <!-- <button class="tablinks" onclick="openTab(event, 'News')">News</button>-->
+        <button class="tablinks" onclick="openTab(event, 'Foodprint')">Foodprint</button>  
+        <button class="tablinks" onclick="openTab(event, 'Team')">Team</button>
+        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+    </div>
+    
+    <div id="About" class="tabcontent">
+        <p> It's time to quantify our carbon footprints.</p>
+        <p>Sign up to our mailing list to follow the launch of our app, Foodprint.</p>
+        <div id="mc_embed_signup">
+            <form action="https://quanteco.us5.list-manage.com/subscribe/post?u=84b372b9598d22040af9583e0&amp;id=0def27f7e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="email" value="" name="EMAIL" id="mce-EMAIL" data-required>
+                    <label class="mdl-textfield__label" for="mce-EMAIL">Email address</label>
+                </div>
+
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_84b372b9598d22040af9583e0_0def27f7e4" tabindex="-1" value=""></div>
+
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="mdl-button mdl-button--raised mdl-button--primary">
+                    Subscribe
+                </button>
+                </div>
+            </form>
+        </div>
+    
+    </div>
+
+    <div id="Foodprint" class="tabcontent">
+     <!--    <h3>Foodprint</h3>-->
+        <p> 
+            Coming soon... A recipe and diet app with ecology and health at its heart.
+        </p>
+        <p>    
+            Find the footprint behind your plate by searching the nutrition and ecological impacts 
+            of a growing list food items.
+        </p>
+        <p>    
+            The nutritional data is sourced from the USDA.
+            The ecological data is estimated by us from recent scientific studies.
+        </p>
+        <p>    
+            Our alpha app is now online! It is under development and still growing every day. 
+    </div> 
+    
+    <div id="News" class="tabcontent">
+        <p style="text-align:left;"> </p>
+    </div>
+        
+    <div id="Team" class="tabcontent">
+        <div class="row">
+            <div class="column">
+                <img src="evert.png" alt="Evert">  <br>
+                <h5> Evert - CTO </h5>
+                Computer scientist <br>
+                Likes: Backends <br>
+                Dislikes: Bikeshedding
+            </div>
+            <div class="column">
+                <img src="robert.png" alt="Robert"> <br>
+                <h5> Robert - CEO </h5>
+                Mathematical engineer<br>
+                Likes: Data<br>
+                Dislikes: Balance fallacy
+            </div>
+        </div>
+    </div>
+
+      
+    <div id="Contact" class="tabcontent">
+    <p>
+        If you find any bugs or have any sprouts (suggestions) for us, please contact us at contact@quanteco.org.         
+    </p>
+    </div> 
+
+    <script>        
+        function openTab(evt, name) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+        
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";            
+            //tablinks[i].style.backgroundColor = "";
+            
+            }
+        
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+        
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(name).style.display = "block";
+            evt.currentTarget.className += " active";
+        } 
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+
+    </script>
+    
+
 
 </main>
 </body>
