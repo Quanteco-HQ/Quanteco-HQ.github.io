@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #f5f9fa;
     font-family: 'Open Sans', sans-serif;
@@ -12,11 +14,11 @@ p {
 }
 
 main {
-    max-width: 600px;
+    max-width: 1000px;
     padding: 2em;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
 }
@@ -27,12 +29,137 @@ main {
     align-items: center;
 }
 
-@media screen and (min-height: 700px) and (min-width: 350px) {
+@media screen and (min-height: 600px) and (min-width: 350px) {
     body {
         background-image: url('./background.jpg');
-        background-size: cover;
+        background-size:2000px;
         background-position-x: center;
         background-position-y: top;
+        background-repeat: no-repeat;
         background-attachment: fixed;
+
     }
+}
+
+
+
+
+
+
+/* Style the tab */
+.title {
+    position: relative;
+    top: auto;
+   /* right: 200px ;
+    width: 100%;*/
+   text-align: center;
+   
+}
+
+.tab {
+ 
+      /*overflow: hidden;
+     overflow-wrap: normal;
+ border: 1px solid rgb(255, 253, 253);
+  float:left;
+    background-color: #ffffff;
+    
+  min-width: 400px;
+  
+    width: 100%;
+  */
+  
+  width: fit-content;
+  position:relative;
+  top: 25px;
+  left: auto;
+  right:auto;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+   /*
+    float: left;
+    
+    min-width: fit-content;
+    width: 100px;
+    */
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    transition: 0.05s;
+    font-size:medium;
+    
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(191, 228, 186);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+   /* background-color: rgb(109, 228, 110*/
+    background-color: rgb(191, 228, 186);
+
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+      position: relative;
+    display: none;
+    padding: 6px 12px;
+/*    border: 1px solid #ccc;
+
+    width: 90%;
+    */
+
+    border-top: none;  
+    text-align:center;
+    top: 55px;
+  }
+
+
+  * {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  font-family: Arial;
+}
+
+.tablinks {
+  background-color: #555;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 20px;
+  /*
+  width: 20%;
+  */
+}
+
+.tablinks:hover {
+  background-color: #777;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
