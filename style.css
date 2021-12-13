@@ -29,7 +29,7 @@ main {
     align-items: center;
 }
 
-@media screen and (min-height: 950px) and (min-width: 350px) {
+@media screen and (min-height: 600px) and (min-width: 350px) {
     body {
         background-image: url('./background.jpg');
         background-size:2000px;
@@ -85,12 +85,13 @@ main {
     min-width: fit-content;
     width: 100px;
     */
+    font-family:'Poppins', sans-serif;
     text-align: center;
     position: relative;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 14px;
+    padding: 15px 20px;
     transition: 0.05s;
     font-size:medium;
     
@@ -113,9 +114,12 @@ main {
       position: relative;
     display: none;
     padding: 6px 12px;
-/*    border: 1px solid #ccc;*/
-    border-top: none;  
+/*    border: 1px solid #ccc;
+
     width: 90%;
+    */
+
+    border-top: none;  
     text-align:center;
     top: 55px;
   }
@@ -136,7 +140,7 @@ body, html {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 15px 20px;
   font-size: 20px;
   /*
   width: 20%;
@@ -150,6 +154,7 @@ body, html {
 .column {
   float: left;
   width: 50%;
+  padding: 15px 15px;
 }
 
 /* Clear floats after the columns */
