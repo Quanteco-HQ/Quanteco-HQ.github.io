@@ -1,166 +1,172 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-	<meta charset="utf-8">
 
-	<title>Quanteco</title>
-	<meta name="description" content="Quanteco.org">
-	<meta name="author" content="Quanteco">
-	<meta name="referrer" content="no-referrer">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="utf-8">
+
+    <title>Quanteco</title>
+    <meta name="description" content="Quanteco.org">
+    <meta name="author" content="Quanteco">
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- material design lite -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css" /> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css" />
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="Q_notion.png">
 </head>
 
 <body>
-<main>
-    <script>
-        // fixes over-aggressive marking the email field as invalid
-        document.addEventListener('DOMContentLoaded', function () {
-            setTimeout(function () {
-                document.querySelectorAll("input[data-required]").forEach(function (e) {
-                    e.required = true;
-                });
-            }, 1);
-        });
-    </script>
+    <main>
+        <script>
+            // fixes over-aggressive marking the email field as invalid
+            document.addEventListener('DOMContentLoaded', function () {
+                setTimeout(function () {
+                    document.querySelectorAll("input[data-required]").forEach(function (e) {
+                        e.required = true;
+                    });
+                }, 1);
+            });
+        </script>
 
-    <div style="margin-top: 10px;"><img src="quanteco2.png" alt="Quanteco logo">
-   <!-- 
+        <div style="margin-top: 10px;"><img src="quanteco2.png" alt="Quanteco logo">
+            <!-- 
     <h1 style="margin-top: 0" class = "title">Quanteco </h1>
      Tab links -->
-    </div>
+        </div>
 
-    <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
-              <!-- <button class="tablinks" onclick="openTab(event, 'News')">News</button>-->
-        <button class="tablinks" onclick="openTab(event, 'Foodprint')">Foodprint</button>  
-        <button class="tablinks" onclick="openTab(event, 'Team')">Team</button>
-        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-    </div>
-    
-    <div id="About" class="tabcontent">
-        <p> It's time to quantify our carbon footprints.</p>
-        <p>Sign up to our mailing list to follow the launch of our app, Foodprint.</p>
-        <div id="mc_embed_signup">
-            <form action="https://quanteco.us5.list-manage.com/subscribe/post?u=84b372b9598d22040af9583e0&amp;id=0def27f7e4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-                
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="email" value="" name="EMAIL" id="mce-EMAIL" data-required>
-                    <label class="mdl-textfield__label" for="mce-EMAIL">Email address</label>
-                </div>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+            <!-- <button class="tablinks" onclick="openTab(event, 'News')">News</button>-->
+            <button class="tablinks" onclick="openTab(event, 'Foodprint')">Foodprint</button>
+            <button class="tablinks" onclick="openTab(event, 'Team')">Team</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+        </div>
 
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_84b372b9598d22040af9583e0_0def27f7e4" tabindex="-1" value=""></div>
+        <div id="About" class="tabcontent">
+            <p> It's time to quantify our carbon footprints.</p>
+            <p>Sign up to our mailing list to follow the launch of our app, Foodprint.</p>
+            <div id="mc_embed_signup">
+                <form
+                    action="https://quanteco.us5.list-manage.com/subscribe/post?u=84b372b9598d22040af9583e0&amp;id=0def27f7e4"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
 
-                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="mdl-button mdl-button--raised mdl-button--primary">
-                    Subscribe
-                </button>
-                </div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input class="mdl-textfield__input" type="email" value="" name="EMAIL" id="mce-EMAIL"
+                            data-required>
+                        <label class="mdl-textfield__label" for="mce-EMAIL">Email address</label>
+                    </div>
+
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_84b372b9598d22040af9583e0_0def27f7e4" tabindex="-1" value="">
+                    </div>
+
+                    <button type="submit" name="subscribe" id="mc-embedded-subscribe"
+                        class="mdl-button mdl-button--raised mdl-button--primary">
+                        Subscribe
+                    </button>
+            </div>
             </form>
         </div>
-    
-    </div>
+        </div>
 
-    <div id="Foodprint" class="tabcontent">
-     <!--    <h3>Foodprint</h3>
+        <div id="Foodprint" class="tabcontent">
+            <!--    <h3>Foodprint</h3>
     
                 width="175"
                 height="296"
     
     -->
-        <p> 
-            Coming soon... a recipe and diet app with ecology and health at its heart.
-        </p>
-        <p>    
-            Find the footprint behind your plate by searching the nutrition and ecological impacts 
-            of a growing list food items.
-        </p>
-        <p>    
-            The nutritional data is sourced from the USDA.
-            The ecological data is estimated by us from recent scientific studies.
-        </p>
-        <p>    
-            Our alpha app is now online! It is under development and still growing every day. 
-        </p>
-    </div> 
-    
-    <div id="News" class="tabcontent">
-        <p style="text-align:left;"> </p>
-    </div>
-        
-    <div id="Team" class="tabcontent">
-        <div class="row">
-            <div class="column">
-                <img src="evert.png" alt="Evert">  <br>
-                <h5> Evert - CTO </h5>
-                Computer scientist <br>
-                Likes: Backends <br>
-                Dislikes: Bikeshedding
-            </div>
-            <div class="column">
-                <img src="robert.png"
-                
-                style="width: 175px; height: 296px; object-fit: cover;"
-                
-                alt="Robert"> <br>
-                <h5> Robert - CEO </h5>
-                Mathematical engineer<br>
-                Likes: Data<br>
-                Dislikes: Balance fallacy
+            <p>
+                Coming soon... a recipe and diet app with ecology and health at its heart.
+            </p>
+            <p>
+                Find the footprint behind your plate by searching the nutrition and ecological impacts
+                of a growing list food items.
+            </p>
+            <p>
+                The nutritional data is sourced from the USDA.
+                The ecological data is estimated by us from recent scientific studies.
+            </p>
+            <p>
+                Our alpha app is now online! It is under development and still growing every day.
+            </p>
+        </div>
+
+        <div id="News" class="tabcontent">
+            <p style="text-align:left;"> </p>
+        </div>
+
+        <div id="Team" class="tabcontent">
+            <div class="row">
+                <div class="column">
+                    <img  class="teamimage" src="evert.png" alt="Evert"> <br>
+                    <h5> Evert - CTO </h5>
+                    Computer scientist <br>
+                    Likes: Backends <br>
+                    Dislikes: Bikeshedding
+                </div>
+                <div class="column">
+                    <img class="teamimage" src="robert.png" style="width: 175px;" alt="Robert"> <br>
+                    <h5> Robert - CEO </h5>
+                    Mathematical engineer <br>
+                    Likes: Data<br>
+                    Dislikes: Balance fallacy
+                </div>
             </div>
         </div>
-    </div>
 
-      
-    <div id="Contact" class="tabcontent">
-    <p>
-        If you find any bugs or have any sprouts (suggestions) for us, please contact us at <a href="mailto:contact@quanteco.org">contact@quanteco.org</a>.
-    </p>
-    </div> 
 
-    <script>        
-        function openTab(evt, name) {
-            // Declare all variables
-            var i, tabcontent, tablinks;
-        
-            // Get all elements with class="tabcontent" and hide them
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";            
-            //tablinks[i].style.backgroundColor = "";
-            
+        <div id="Contact" class="tabcontent">
+            <p>
+                If you find any bugs or have any sprouts (suggestions) for us, please contact us at <a
+                    href="mailto:contact@quanteco.org">contact@quanteco.org</a>.
+            </p>
+        </div>
+
+        <script>
+            function openTab(evt, name) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                    //tablinks[i].style.backgroundColor = "";
+
+                }
+
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(name).style.display = "block";
+                evt.currentTarget.className += " active";
             }
-        
-            // Get all elements with class="tablinks" and remove the class "active"
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-        
-            // Show the current tab, and add an "active" class to the button that opened the tab
-            document.getElementById(name).style.display = "block";
-            evt.currentTarget.className += " active";
-        } 
-        
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
 
-    </script>
-    
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+
+        </script>
 
 
-</main>
+
+    </main>
 </body>
+
 </html>
