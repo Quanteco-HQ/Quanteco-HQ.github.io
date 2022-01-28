@@ -126,8 +126,8 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  font-weight: 300;
-  color: #afafaf;
+  font-weight: 400;
+  color: #6e6e6e;
 }
 
 img {
@@ -925,6 +925,7 @@ Banner Style
   margin-bottom: 20px;
 }
 
+
 .main-banner .left-content p {
   margin-bottom: 45px;
   color: #2a2a2a;
@@ -978,7 +979,7 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: /*url(../images/services-left-dec.png);*/ url(../images/qe/vine2.png);
+  background-image: url(../images/qe/vine2.png);
   background-repeat: no-repeat;
   position: absolute;
   left: -30px;
@@ -1016,7 +1017,7 @@ Services Style
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   background-color: #fff;
   border-radius: 10px;
-  border-top-right-radius: 50px;
+  border-top-right-radius: 10px;
   transition: all .3s;
 }
 
@@ -1838,7 +1839,8 @@ a.btn_red {
 }
 
 .centeredText {
-  color: #afafaf;
+  color: #6e6e6e;
+  font-weight: 400;
   text-align: center;
   margin: 20px 0;
   clear: both;
@@ -1993,7 +1995,8 @@ responsive
     margin-right: 0;
   }
   .main-banner .left-content p {
-    color: #afafaf;
+    color: #6e6e6e;
+    font-weight: 400;
     margin-right: 0;
   }
   .main-banner .left-content .white-button a {
