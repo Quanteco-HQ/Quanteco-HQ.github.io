@@ -1142,6 +1142,8 @@ About Us
 .about-us .box-item span {
   position: relative;
   z-index: 1;
+  
+  text-align: center;
 }
 
 .about-us .box-item {
