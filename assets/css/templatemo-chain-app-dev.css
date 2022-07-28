@@ -1066,29 +1066,50 @@ Services Style
 }
 
 
-.third-service .icon {
-  background-image: url(../images/qe/plan.png);
-}
-
 .third-service:hover .icon {
-  background-image: url(../images/qe/plan_white.png);
-}
-
-.fourth-service .icon {
-  background-image: url(../images/qe/computer.png);
-}
-
-.fourth-service:hover .icon {
   background-image: url(../images/qe/computer_white.png);
 }
 
-.service-item:hover {
+.third-service .icon {
+  background-image: url(../images/qe/computer.png);
+}
+
+
+.fourth-service .icon {
+  background-image: url(../images/qe/plan.png);
+}
+
+.fourth-service:hover .icon {
+  background-image: url(../images/qe/plan_white.png);
+}
+
+.first-service:hover {
   background-image: url(../images/qe/bgleaf.png);/* url(../images/service-bg.jpg);*/
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
+.second-service:hover {
+  background-image: url(../images/qe/bgleaf_grey.png);/* url(../images/service-bg.jpg);*/
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third-service:hover {
+  background-image: url(../images/qe/bgleaf_grey.png);/* url(../images/service-bg.jpg);*/
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourth-service:hover {
+  background-image: url(../images/qe/bgleaf_grey.png);/* url(../images/service-bg.jpg);*/
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /*
@@ -1121,6 +1142,8 @@ About Us
 .about-us .box-item span {
   position: relative;
   z-index: 1;
+  
+  text-align: center;
 }
 
 .about-us .box-item {
