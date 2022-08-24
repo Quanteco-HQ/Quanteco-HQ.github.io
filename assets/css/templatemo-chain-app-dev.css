@@ -147,12 +147,12 @@ body {
 }
 
 ::selection {
-  background: #25a035;
+  background: #008b46ff;
   color: #fff !important;
 }
 
 ::-moz-selection {
-  background: #25a035;
+  background: #008b46ff;
   color: #fff !important;
 }
 
@@ -187,7 +187,7 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #25a035;
+  color: #008b46ff;
 }
 
 .section-heading img {
@@ -207,7 +207,7 @@ body {
 .white-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #25a035 !important;
+  color: #008b46ff !important;
   text-transform: capitalize;
   font-size: 15px;
   background-color: #fff;
@@ -223,7 +223,7 @@ body {
 }
 
 .white-button a:hover {
-  background-color: #25a035;
+  background-color: #008b46ff;
   color: #fff !important;
 }
 
@@ -247,8 +247,8 @@ body {
   color: #fff !important;
   text-transform: capitalize;
   font-size: 15px;
-  background: #25a035;
-  background: linear-gradient(105deg, #25a035 0%, rgb(40, 253, 93) 100%);
+  background: #008b46ff;
+  background: linear-gradient(105deg, #008b46ff 0%, rgb(0, 190, 95) 100%);
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -257,15 +257,15 @@ body {
 
 .gradient-button a:hover {
   color: rgb(0, 0, 0) !important;
-  background: #25a035;
-  background: linear-gradient(105deg, #25a035 0%, rgb(40, 253, 93) 100%);
+  background: #008b46ff;
+  background: linear-gradient(105deg, #008b46ff 0%, rgb(0, 190, 95) 100%);
  }
 
 .border-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #25a035 !important;
-  border: 1px solid #25a035;
+  color: #008b46ff !important;
+  border: 1px solid #008b46ff;
   text-transform: capitalize;
   font-size: 15px;
   display: inline-block;
@@ -277,7 +277,7 @@ body {
 }
 
 .border-button a:hover {
-  background-color: #25a035;
+  background-color: #008b46ff;
   color: #fff !important;
 }
 
@@ -305,7 +305,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #25a035;
+  color: #008b46ff;
 }
 
 .background-header .nav li a.active {
@@ -317,7 +317,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #25a035;
+  background-color: #008b46ff;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -428,7 +428,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #25a035!important;
+  color: #008b46ff!important;
 }
 
 .header-area .main-nav .nav li:last-child a.active {
@@ -437,7 +437,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #25a035!important;
+  color: #008b46ff!important;
   opacity: 1;
 }
 
@@ -499,7 +499,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #25a035!important;
+  color: #008b46ff!important;
   padding-left: 25px;
 }
 
@@ -639,7 +639,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #25a035;
+  color: #008b46ff;
 }
 
 @media (max-width: 1200px) {
@@ -679,7 +679,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #25a035!important;
+    color: #008b46ff!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -741,7 +741,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #25a035!important;
+    color: #008b46ff!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -855,7 +855,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #25a035;
+    background: #008b46ff;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -878,7 +878,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #25a035;
+    background: #008b46ff;
     border-radius: 50%;
 }
 
@@ -894,14 +894,14 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 250px 120px 150px 120px;
+  padding: 150px 120px 0px 120px;
   position: relative;
   overflow: hidden;
 }
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/qe/bgfood.png); /* url(../images/slider-left-dec.png);*/
+  /*background-image: url(../images/qe/bgfood.png); /* url(../images/slider-left-dec.png);*/
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -962,7 +962,7 @@ Services Style
 */
 
 .services {
-  padding-top: 130px;
+  padding-top: 0px;
   position: relative;
 }
 
@@ -991,11 +991,11 @@ Services Style
 
 .services:before {
   content: '';
-  background-image: url(../images/qe/vine3.png);
+ /* background-image: url(../images/qe/vine3.png);*/
   background-repeat: no-repeat;
   position: absolute;
-  right: 0px;
-  top: -210px;
+  right: -100px;
+  top: -200px;
   width: 500px;
   height: 400px;
   z-index: 1;
@@ -1167,7 +1167,7 @@ About Us
 }
 
 .about-us .box-item:hover h4 a {
-  color: #25a035;
+  color: #008b46ff;
 }
 
 .about-us .gradient-button {
@@ -1264,7 +1264,7 @@ The Clients
 .the-clients .naccs .menu div.active i,
 .the-clients .naccs .menu div.active span.rating,
 .the-clients .naccs .menu div.active .thumb {
-  color: #25a035;
+  color: #008b46ff;
 }
 
 .the-clients ul.nacc {
@@ -1423,7 +1423,7 @@ The Clients
 }
 
 .pricing-item-regular ul li {
-  color: #25a035;
+  color: #008b46ff;
   font-size: 15px;
   margin-bottom: 15px;
 }
@@ -1500,7 +1500,7 @@ The Clients
 }
 
 .pricing-item-pro ul li {
-  color: #25a035;
+  color: #008b46ff;
   font-size: 15px;
   margin-bottom: 15px;
 }
@@ -1605,11 +1605,11 @@ Footer Style
 
 footer {
   background-image: /*url(../images/footer-bg.png);*/ url(../images/qe/back2.png);
-  background-position: center top;
+  background-position: center ;
   background-repeat: no-repeat;
-  background-size:cover;
-  padding-top: 300px;
-  padding-bottom: 60px;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 footer .section-heading {
@@ -1655,7 +1655,7 @@ footer #search button {
 
 footer #search button:hover {
   background-color: #fff;
-  color: #25a035;
+  color: #008b46ff;
 }
 
 .footer-widget .logo img {
@@ -1751,13 +1751,13 @@ PopUp
 
 .btn {
   padding: 10px 20px;
-  background: #25a035;
+  background: #008b46ff;
   color: #fff;
   transition: all .3s;
 }
 
 .btn_red {
-  background: #25a035;
+  background: #008b46ff;
   color: #FFF;
 }
 
@@ -1810,7 +1810,7 @@ a.btn_red {
   right: 0;
   top: 0;
   padding: 10px 15px;
-  background: #25a035;
+  background: #008b46ff;
   cursor: pointer;
   color: #fff;
   font-size: 16px;
@@ -1927,7 +1927,7 @@ a.btn_red {
   clear: both;
   overflow: hidden;
   text-decoration: none;
-  color: #25a035;
+  color: #008b46ff;
   transition: all .3s;
 }
 /* User Register Form */
@@ -2149,7 +2149,7 @@ responsive
   }
   footer #search button {
     background-color: #fff;
-    color: #25a035;
+    color: #008b46ff;
   }
   footer #search input::placeholder { 
     color: #2a2a2a;
