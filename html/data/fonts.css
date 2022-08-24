@@ -1,0 +1,35 @@
+@font-face {
+  font-family: G-Lato-n4;
+  font-display: swap;
+  src: url('../data/fonts/lato_v23_S6uyw4BMUTPHvxk6XweuBCY.ttf');
+}
+@font-face {
+  font-family: G-Lato-n7;
+  font-display: swap;
+  src: url('../data/fonts/lato_v23_S6u9w4BMUTPHh6UVew-FGC_p9dw.ttf');
+}
+@font-face {
+  font-family: G-Lato-i4;
+  font-display: swap;
+  src: url('../data/fonts/lato_v23_S6u8w4BMUTPHjxswWyWrFCbw7A.ttf');
+}
+@font-face {
+  font-family: "G-Varela Round-n4";
+  font-display: swap;
+  src: url('../data/fonts/varelaround_v19_w8gdH283Tvk__Lua32TysjIvoMGOD9gxZw.ttf');
+}
+@font-face {
+  font-family: G-Roboto-n5;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v30_KFOlCnqEu92Fr1MmEU9vAx05IsDqlA.ttf');
+}
+@font-face {
+  font-family: G-Roboto-n7;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v30_KFOlCnqEu92Fr1MmWUlvAx05IsDqlA.ttf');
+}
+@font-face {
+  font-family: "G-Open Sans-n4";
+  font-display: swap;
+  src: url('../data/fonts/opensans_v34_memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4nY1M2xLER.ttf');
+}
